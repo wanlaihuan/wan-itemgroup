@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingLeft="25dp"
+    android:paddingRight="25dp"
+    tools:context="com.yingt.itemgroupdemo.MainActivity">
+
+    <Button
+        android:id="@+id/bt_Retrofit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit 网络请求"
+        />
+    <Button
+        android:id="@+id/bt_Retrofit_GsonConverter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit + GsonConverter 网络请求"
+        />
+
+    <Button
+        android:id="@+id/bt_Retrofit_rxjava_GsonConverter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retrofit + RxJava +GsonConverter 网络请求"
+        />
+
+</LinearLayout>

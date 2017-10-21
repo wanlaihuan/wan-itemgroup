@@ -1,0 +1,235 @@
+{
+  "Group": [
+    {
+      "groupTitle": "首页功能",
+      "groupItems": [
+        {
+          "uniqueId": "101",
+          "badgeState": 2,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "自选股"
+        },
+        {
+          "uniqueId": "102",
+          "badgeState": 2,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "大盘指数"
+        },
+        {
+          "uniqueId": "103",
+          "badgeState": 2,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "板块排行"
+        },
+        {
+          "uniqueId": "104",
+          "badgeState": 2,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "沪深排行"
+        },
+        {
+          "uniqueId": "106",
+          "badgeState": 2,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "银证转账"
+        },
+        {
+          "uniqueId": "105",
+          "badgeState": 2,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "委托交易"
+        },
+        {
+          "uniqueId": "107",
+          "badgeState": 2,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "持仓查询"
+        },
+        {
+          "uniqueId": "10000",
+          "badgeState": 0,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "定制"
+        }
+      ]
+    },
+    {
+      "groupTitle": "可选功能",
+      "groupItems": [
+        {
+          "uniqueId": "1001",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "开户"
+        },
+        {
+          "uniqueId": "1002",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "业务办理"
+        },
+        {
+          "uniqueId": "1003",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "理财商城"
+        },
+        {
+          "uniqueId": "1004",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "新股日历"
+        },
+        {
+          "uniqueId": "1005",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "预约打新"
+        },
+        {
+          "uniqueId": "1006",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "一键打新"
+        },
+        {
+          "uniqueId": "1007",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "资讯"
+        },
+        {
+          "uniqueId": "107",
+          "badgeState": 3,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "持仓查询"
+        },
+        {
+          "uniqueId": "101",
+          "badgeState": 3,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "自选股"
+        },
+        {
+          "uniqueId": "102",
+          "badgeState": 3,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "大盘指数"
+        },
+        {
+          "uniqueId": "103",
+          "badgeState": 3,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "板块排行"
+        },
+        {
+          "uniqueId": "104",
+          "badgeState": 3,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "沪深排行"
+        },
+        {
+          "uniqueId": "106",
+          "badgeState": 3,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "银证转账"
+        },
+        {
+          "uniqueId": "105",
+          "badgeState": 3,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "委托交易"
+        }
+      ]
+    },
+    {
+      "groupTitle": "可选功能2",
+      "groupItems": [
+        {
+          "uniqueId": "10012",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "开户2"
+        },
+        {
+          "uniqueId": "10022",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "业务办理2"
+        },
+        {
+          "uniqueId": "10032",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "理财商城2"
+        },
+        {
+          "uniqueId": "10042",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "新股日历2"
+        },
+        {
+          "uniqueId": "1005",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "预约打新2"
+        },
+        {
+          "uniqueId": "10062",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "一键打新2"
+        },
+        {
+          "uniqueId": "10072",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "资讯2"
+        },
+        {
+          "uniqueId": "1072",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "持仓查询2"
+        },
+        {
+          "uniqueId": "1012",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "自选股2"
+        },
+        {
+          "uniqueId": "1022",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "大盘指数2"
+        },
+        {
+          "uniqueId": "1032",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "板块排行2"
+        },
+        {
+          "uniqueId": "1042",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "沪深排行2"
+        },
+        {
+          "uniqueId": "1062",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "银证转账2"
+        },
+        {
+          "uniqueId": "1052",
+          "badgeState": 1,
+          "iconUrl": "file:///android_asset/zixungu_btn_normal.png",
+          "title": "委托交易2"
+        }
+      ]
+    }
+  ]
+}

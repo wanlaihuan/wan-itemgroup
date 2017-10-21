@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yt_edit_ui_bg_color">#fff6f6f6</color>
+    <color name="yt_edit_title_bg_color">#ffffffff</color>
+    <color name="yt_edit_title_divider_color">#ffececec</color>
+    <color name="yt_edit_title_text_color">#ff333333</color>
+    <color name="yt_group_title_left_color">#ffff4747</color>
+
+    <color name="tip">#9c9c9c</color>
+    <color name="bg_focus">#7fDDDDDD</color>
+
+</resources>

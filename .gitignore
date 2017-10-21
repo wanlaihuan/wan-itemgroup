@@ -1,22 +1,11 @@
-# Compiled class file
-*.class
+﻿# 此为注释 - 将被Git忽略
+# 忽略基于AS/Gradle自动生成的目录及文件:
+*.iml
+.idea
+.gradle
+gradlew
+gradlew.bat
+local.properties
 
-# Log file
-*.log
-
-# BlueJ files
-*.ctxt
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# 忽略kds_gphone目录下(含子目录下)的所有的build目录:
+build

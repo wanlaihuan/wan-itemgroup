@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:textColor="#ffff0000"
+    android:textSize="@dimen/yt_text_size_c"
+    android:id="@+id/btn_edit"
+    >
+
+</TextView>
