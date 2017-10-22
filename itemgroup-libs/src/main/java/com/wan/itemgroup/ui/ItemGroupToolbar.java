@@ -16,6 +16,8 @@ import com.yingt.uimain.util.Res;
  */
 
 public class ItemGroupToolbar extends YtBaseToolbar {
+    private TextView tvFinishBtn;
+    private ItemGroupAdapter adapter;
 
     public ItemGroupToolbar(Context context) {
         this(context, null);
@@ -28,12 +30,6 @@ public class ItemGroupToolbar extends YtBaseToolbar {
     public ItemGroupToolbar(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
 
-    }
-
-    private ItemGroupAdapter adapter;
-
-    public void setChannelAdapter(ItemGroupAdapter adapter) {
-        this.adapter = adapter;
     }
 
     @Override
@@ -52,22 +48,32 @@ public class ItemGroupToolbar extends YtBaseToolbar {
         return R.layout.yt_item_group_title_menu;
     }
 
+    public void setChannelAdapter(ItemGroupAdapter adapter) {
+        this.adapter = adapter;
+        adapter.setOnModeChangedListener(new ItemGroupAdapter.OnModeChangedListener() {
+            @Override
+            public void onChanged(boolean isEditMode) {
+                if (isEditMode) {
+                    tvFinishBtn.setVisibility(View.VISIBLE);
+                    tvFinishBtn.setText(R.string.finish);
+                }else{
+                    tvFinishBtn.setVisibility(View.GONE);
+                }
+            }
+        });
+    }
+
     @Override
     public void onFindViewById() {
         super.onFindViewById();
 
-        final TextView textView = (TextView) findViewById(R.id.btn_edit);
-        textView.setText(R.string.edit);
-        textView.setOnClickListener(new OnClickListener() {
+        tvFinishBtn = (TextView) findViewById(R.id.btn_edit);
+        tvFinishBtn.setVisibility(View.GONE);
+        tvFinishBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (adapter != null) {
-                    boolean isEditMode = adapter.chanageEditMode();
-                    if (isEditMode) {
-                        textView.setText(R.string.finish);
-                    } else {
-                        textView.setText(R.string.edit);
-                    }
+                    adapter.chanageEditMode();
                 }
             }
         });
@@ -81,6 +87,7 @@ public class ItemGroupToolbar extends YtBaseToolbar {
         setToolbarTitle(Res.getString(R.string.yt_edit_title));
         setToolbarTitleColor(Res.getColor(R.color.yt_edit_title_text_color));
         setToolbarDividerColor(Res.getColor(R.color.yt_edit_title_divider_color));
+        setToolbarBackIcon(R.drawable.yt_toolbar_back_btn);
     }
 
     @Override
